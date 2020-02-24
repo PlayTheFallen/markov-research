@@ -17,3 +17,5 @@ The next set of goals would be to:
 - Detach from rethinkdb backend and move to either sqlite or static json.
 - Define a higher efficency learning model.
 - Provide an interface that other projects may use.
+- When running markov chain, identify the word from the previous loop.  
+  Fallback to this if a catch is found in the while block, run concurrently until no other possibilities are available or the wordCount is 0.
