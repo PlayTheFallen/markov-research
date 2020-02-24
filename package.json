@@ -1,0 +1,11 @@
+{
+    "name": "markov-research",
+    "description": "Markov Sentence Generation",
+    "authors": "PlayTheFallen",
+    "version": "1.0.0",
+    "main": "./src/run",
+    "dependencies": {
+        "rethinkdb": "2.4.2"
+    },
+    "type": "module"
+}
