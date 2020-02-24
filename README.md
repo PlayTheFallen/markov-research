@@ -6,7 +6,7 @@ A repo that does basic word linking and then spits it out in another format.
 
 ## Requirements
 
-Current requirements dicate that rethinkdb is used and a node version with import capability (this package uses the module typeset).
+Current requirements dictate that rethinkdb is used and a node version with import capability (this package uses the module typeset).
 
 ## Current limitations
 
