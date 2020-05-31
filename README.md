@@ -15,7 +15,7 @@ A string library as a base to AI profile building.
 
 - Input: Import data structure
 - Parse: Make use of author / speaker to direct the message to the correct destination
-    - map word relationships
+	- map word relationships
 	- keep track of word use and sentence terminator counts
 - Generate: Create new sentence feedback based on existing word links
 - Save: Export in a predefined format (See 2nd Method)
@@ -34,7 +34,13 @@ A string library as a base to AI profile building.
 - Profile
 - Cache
 - Manager
-- Feedback
+- Feedback / Rating
+- Sentence
+- Counter
+	- WordCounter
+	- CharCounter
+- IExportable
+- IComparable
 
 ## Sites / Primary Resources
 
@@ -46,6 +52,7 @@ A string library as a base to AI profile building.
 - cambridge dictionary
 - collins dictionary
 - urban dictionary (content warning)
+- thesaurus.com
 
 ## Word Discovery
 
@@ -93,6 +100,10 @@ A string library as a base to AI profile building.
 	- Language features
 - Grammar (grammar-storm)?
     - Use of punchucation, connectors, etc.
+- Templating
+- Adapter / Plugin
+- Iterators / Generators (#1)
+- String Parser (ref to Klasa)
 
 # Current standing
 
